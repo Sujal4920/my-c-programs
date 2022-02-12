@@ -2,7 +2,7 @@
 int main()
 {
     int arr[50][50],n,m,i,j,k,l,temp;
-    printf("Enter size of row and column:\n");
+    printf("Enter size of row and column in matrix:\n");
     scanf("%d%d",&n,&m);
     printf("Enter %d elements in a matrix:\n",n*m);
     for(i=0;i<n;i++)
