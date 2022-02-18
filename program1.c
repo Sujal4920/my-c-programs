@@ -1,8 +1,9 @@
+//program to find length and breadth using area and perimeter
 #include <stdio.h>
 #include <math.h>
 int main()
 {
-    int a = 1, b, b1, b2, c, area, pm, d, length, bredth;
+    int a = 1, b, b1, b2, c, area, pm, d, length, breadth;
     printf("Enter area of rectangle: ");
     scanf("%d", &area);
     printf("enter perimeter of rectangle: ");
@@ -26,8 +27,8 @@ int main()
         }
     }
 
-    bredth = c / length;
+    breadth = c / length;
     printf("\n");
-    printf("The bredth is %d", bredth);
+    printf("The breadth is %d", breadth);
     return 0;
 }

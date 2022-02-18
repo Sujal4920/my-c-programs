@@ -21,7 +21,7 @@ int main()
     }
     if(arm==y)
     {
-        printf("The number %d and %d is an armstrong number ",arm,y);
+        printf("The number %d is an armstrong number ",y);
     }
     else
        printf("The entered number is not an armstrong number.");

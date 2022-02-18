@@ -6,7 +6,7 @@ int main()
     {
         if(n%15==0)
         {
-            printf("FissBuzz\t");
+            printf("FizzBuzz\t");
         }
         else if(n%3==0)
         {

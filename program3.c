@@ -1,3 +1,4 @@
+//reverse a number
 #include<stdio.h>
 int main()
 {
@@ -9,7 +10,7 @@ int main()
       b=a%10;
       x=(x*10)+b;
       a=a/10;
-    };
+    }
     printf("The reverse of number is : %d",x);
     return 0;
 }

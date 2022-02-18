@@ -5,7 +5,7 @@ int main()
     printf("Enter how many numbers you want to enter: ");
     scanf("%d",&n);
     printf("Now enter number:\n");
-    while(n)
+    while(n!=0)
     {
         scanf("%d",&i);
         if(i>0)
@@ -24,6 +24,6 @@ int main()
     }
     printf("The positive numbers are:%d\n",pos);
     printf("The negatiive number are:%d\n",neg);
-    printf("The number of zeroe's are:%d\n",zero);
+    printf("The number of zero's are:%d\n",zero);
     return 0;
 }

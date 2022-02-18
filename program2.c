@@ -1,3 +1,4 @@
+//swap using three variable
 #include <stdio.h>
 int main()
 {
@@ -8,6 +9,6 @@ int main()
     scanf("%d",&b);
     printf("The numbers before swapping are: %d and %d\n",a,b);
     c=a;
-    printf("The numbers after swapping are: %d and %d",a,b,b=c,a=b);  
+    printf("\nThe numbers after swapping are: %d and %d",a,b,b=c,a=b);  
    return 0;
 }

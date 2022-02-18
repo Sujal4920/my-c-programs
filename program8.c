@@ -2,7 +2,7 @@
 int main()
 {
     int a,b,c,y;
-    printf("Enter age of person A,B and C: ");
+    printf("Enter age of person A,B and C:\n");
     scanf("%d%d%d",&a,&b,&c);
     y=a;
     if(b<y)

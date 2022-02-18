@@ -8,6 +8,6 @@ int main()
      {
          fact=fact*i;
      }
-    printf("The factorial of the enterde number is:%d",fact);
+    printf("The factorial of the entered number is:%d",fact);
     return 0;
 }
