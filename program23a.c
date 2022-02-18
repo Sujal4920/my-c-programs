@@ -3,14 +3,12 @@
 int swap(int a, int b)
 {
     a = a + b;
-    b = a - b;
-    a = a - b;
-    printf("The values after swap are: A = %d and B = %d\n", a,b);
+    printf("The values after swap are: A = %d and B = %d\n", a,b,a=a-b,b=a-b);
     return 0;
 }
 int main()
 {
-    int n, m, c;
+    int n, m;
     printf("Enter first number A = ");
     scanf("%d", &n);
     printf("\n");
