@@ -37,6 +37,5 @@ int main()
     printf("even values are: %d\n", even);
     printf("odd values are: %d\n", odd);
     printf("No of Zero values are: %d", zero);
-
     return 0;
 }

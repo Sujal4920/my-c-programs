@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define N 5
+#define N 10
 int main()
 {
     int a[N], i, j,d;

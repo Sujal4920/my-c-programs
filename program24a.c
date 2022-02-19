@@ -16,8 +16,7 @@ int factorialrec(int n)
     else
     {
         return n * (factorialrec(n - 1));
-    }
-    
+    }   
 }
 int main()
 {

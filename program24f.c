@@ -16,7 +16,7 @@ int revrec(int n)
    if(n==1)
    return (1);
    else
-       rev=rev*10+n%10;
+       rev=rev*10+(n%10);
        revrec(n/10);
        return (rev);
 }

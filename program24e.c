@@ -23,7 +23,7 @@ int sumrec(int m)
 int main()
 {
     int n,m,s;
-     m=n;
+    m=n;
     printf("Enter a number: ");
     scanf("%d", &n);
     sumf(n);
