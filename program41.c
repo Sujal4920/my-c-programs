@@ -26,7 +26,7 @@ int main()
     printf("After sorting the strings:\n");
     for(i=0;i<n;i++)
     {
-        printf("Now the %d strind is:%s\n",i,str[i]);
+        printf("Now the %d string  is:%s\n",i,str[i]);
     } 
 
     return 0;

@@ -2,7 +2,7 @@
 #include <string.h>
 int main()
 {
-    char str[100];
+    char str[150];
     int i, j;
     printf("Enter a sentence:\n");
     scanf("%[^\n]s", &str);

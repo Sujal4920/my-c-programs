@@ -1,4 +1,14 @@
 #include <stdio.h>
+void printarray(int arr[50][50],int n,int m)
+{
+   for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++)
+        {
+            printf("%d\t",arr[i][j]);
+        }
+        printf("\n");
+    }
+}
 int main()
 {
     int arr[50][50],n,m,i,j,k,l,temp;
@@ -13,13 +23,7 @@ int main()
         }
     }
     printf("The required %d * %d matrix is:\n",n,m);
-    for(i=0;i<n;i++){
-        for(j=0;j<n;j++)
-        {
-            printf("%d\t",arr[i][j]);
-        }
-        printf("\n");
-    }
+    printarray(arr,n,m); 
     printf("The sorted %d * %d matrix is:\n",n,m);
     for(i=0;i<n;i++){
         for(j=0;j<m;j++)
@@ -38,13 +42,6 @@ int main()
             }
         }
     }
-    for(i=0;i<n;i++)
-    {
-        for(j=0;j<m;j++)
-        {
-            printf("%d\t",arr[i][j]);
-        }
-        printf("\n");
-    }
+    printarray(arr,n,m); 
     return 0;
 }

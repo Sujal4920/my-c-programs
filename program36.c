@@ -27,7 +27,7 @@ int main()
     int arr[50][50], brr[50][50], add[50][50], n, m, i, j, o, p;
     printf("Enter size of row and column for matrix 1:\n");
     scanf("%d%d", &n, &m);
-    printf("Enter %d elements in matrix:\n", n * m);
+    printf("Enter %d elements in matrix 1:\n", n * m);
     matrixscan(arr, n, m);
     printf("Enter size of row and column in matrix 2:\n");
     scanf("%d %d", &o, &p);
@@ -42,7 +42,7 @@ int main()
     {
         for (j = 0; j < m; j++)
         {
-            add[i][j] = arr[i][j] + brr[i][j];
+            add[i][j] = arr[i][j] * brr[i][j];
             printf(" %d\t", add[i][j]);
         }
         printf("\n");
