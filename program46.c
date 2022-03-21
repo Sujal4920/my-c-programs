@@ -1,3 +1,4 @@
+//program to reverse every word in a string
 #include <stdio.h>
 #include<string.h>
 int main()

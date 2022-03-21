@@ -1,3 +1,4 @@
+//Recursive and non-Recursive program for finding sum of first 25 natural number
 #include <stdio.h>
 void sumf(int n)
 {

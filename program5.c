@@ -1,3 +1,4 @@
+//Adding 1 to all digits of a 5digit number
 #include<stdio.h> 
  int main()
  {

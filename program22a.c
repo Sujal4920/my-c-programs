@@ -1,3 +1,4 @@
+//program for star patterns 
 #include <stdio.h>
 void halfpyramid1(int n)
 {

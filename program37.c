@@ -1,3 +1,4 @@
+//program to multiply two 3x3 matrix
 #include <stdio.h>
 void matrixscan(int A[50][50], int n, int m)
 {

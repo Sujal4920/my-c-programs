@@ -1,3 +1,4 @@
+//program to replace double space with single space 
 #include <stdio.h>
 int main()
 {

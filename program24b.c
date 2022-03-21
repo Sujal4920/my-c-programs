@@ -1,3 +1,4 @@
+//Recursive and non-Recursive program for finding a number is prime of not
 #include <stdio.h>
 void prime(int n)
 {

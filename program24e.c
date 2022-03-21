@@ -1,3 +1,4 @@
+//Recursive and non-Recursive program for finding sum of digits
 #include <stdio.h>
 int sum = 0;
 void sumf(int m)

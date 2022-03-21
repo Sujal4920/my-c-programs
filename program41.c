@@ -1,3 +1,4 @@
+//program to sort the names in an array of string
 #include <stdio.h>
 #include<string.h>
 int main()

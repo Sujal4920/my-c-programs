@@ -1,3 +1,4 @@
+//program to find max element in an array
 #include <stdio.h>
 int main()
 {

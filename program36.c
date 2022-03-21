@@ -1,3 +1,4 @@
+//program to add two 6x6 matrix
 #include <stdio.h>
 void matrixscan(int A[50][50], int n, int m)
 {

@@ -1,3 +1,4 @@
+//program to print table of a given number
 #include <stdio.h>
 int main()
 {

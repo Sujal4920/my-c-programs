@@ -1,3 +1,4 @@
+//program to move positive to one side and negative to other side in an array
 #include <stdio.h>
 #define N 10
 int main()

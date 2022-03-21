@@ -1,3 +1,4 @@
+//Recursive and non-Recursive program for finding reverse of a number
 #include <stdio.h>
 int rev=0;
 void revf(int n)

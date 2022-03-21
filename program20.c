@@ -1,3 +1,4 @@
+//program to print all combination's of 1,2and 3
 #include<stdio.h>
 int main()
 {

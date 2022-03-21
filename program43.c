@@ -1,3 +1,4 @@
+//program to delete the word "the" and "THE" from string
 #include <stdio.h>
 #include <string.h>
 int main()

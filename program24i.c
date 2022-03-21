@@ -1,3 +1,4 @@
+//Recursive and non-Recursive program for finding prime factors
 #include <stdio.h>
 void primerec(int n,int c)
 {

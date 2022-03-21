@@ -1,3 +1,4 @@
+//program to sort elements of a 4x4 matrix
 #include <stdio.h>
 void printarray(int arr[50][50],int n,int m)
 {

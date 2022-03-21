@@ -1,3 +1,4 @@
+//program to abbrivate an eltered name
 #include <stdio.h>
 #include<string.h>
 int main()

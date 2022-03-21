@@ -1,3 +1,4 @@
+//program for patterns with alphabets
 #include <stdio.h>
 void halfalpha1(int n)
 {

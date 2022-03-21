@@ -1,3 +1,4 @@
+//Recursive and non-Recursive program for finding a number is armstrong or not
 #include <stdio.h>
 #include <math.h>
 int y = 0;

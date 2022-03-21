@@ -1,3 +1,4 @@
+//Using pointer find smallest in an array
 #include <stdio.h>
 #define N 25
 int main()

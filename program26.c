@@ -1,3 +1,4 @@
+//program to interchange odd-even element in an array
 #include <stdio.h>
 void print(int a[30],int n)
 {

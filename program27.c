@@ -1,3 +1,4 @@
+//program to count positive,negative,even-odd and zeroes in an array
 #include <stdio.h>
 #define N 25
 int main()

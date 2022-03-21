@@ -1,3 +1,4 @@
+//program to find leapyear with conditional operator
 #include<stdio.h>
 int main()
 {

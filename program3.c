@@ -1,4 +1,4 @@
-//reverse a number
+//reverse a 4 digit number
 #include<stdio.h>
 int main()
 {

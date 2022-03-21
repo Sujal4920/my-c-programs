@@ -1,3 +1,4 @@
+//program to get transpose of a given matrix
 #include <stdio.h>
 int main()
 {

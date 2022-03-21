@@ -1,3 +1,4 @@
+//Recursive and non-Recursive program for converting decimal number to binary
 #include <stdio.h>
 long int decimal_to_binary(int n)
 {

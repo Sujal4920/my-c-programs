@@ -1,3 +1,4 @@
+//program to accept only unique element in an array
 #include <stdio.h>
 #define N 10
 int main()

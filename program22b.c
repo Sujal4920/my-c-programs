@@ -1,3 +1,4 @@
+//program for patterns with numbers
 #include <stdio.h>
 void halfnum1(int n)
 {

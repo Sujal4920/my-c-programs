@@ -1,3 +1,4 @@
+//program to search element in an array and count how many time it appeared
 #include <stdio.h>
 #define N 10
 int main()

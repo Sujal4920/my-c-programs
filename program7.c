@@ -1,3 +1,4 @@
+//program to reverse a number and check whether it is same to previous or not
 #include<stdio.h>
 int main()
 {

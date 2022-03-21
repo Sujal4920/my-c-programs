@@ -1,3 +1,4 @@
+//Recursive and non-Recursive program for finding factorial of a number
 #include <stdio.h>
 void factorial(int n)
 {

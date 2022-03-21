@@ -1,3 +1,4 @@
+//program to count number of time a character appeared in a string
 #include <stdio.h>
 #include <string.h>
 int main()
