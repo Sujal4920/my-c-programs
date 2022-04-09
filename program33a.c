@@ -24,8 +24,5 @@ int main()
             printf("Element %d found at position %d\n",k,i);
         }
     }
-  //   printf("Not found");  
-           
-   
     return 0;
 }

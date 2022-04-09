@@ -43,7 +43,7 @@ int main()
     {
         for (j = 0; j < m; j++)
         {
-            add[i][j] = arr[i][j] * brr[i][j];
+            add[i][j] = arr[i][j] + brr[i][j];
             printf(" %d\t", add[i][j]);
         }
         printf("\n");

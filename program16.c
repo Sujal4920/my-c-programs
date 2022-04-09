@@ -2,11 +2,11 @@
 #include <stdio.h>
 int main()
 {
-    int n,i,pos=0,neg=0,zero=0;
+    int n,i,j=1,pos=0,neg=0,zero=0;
     printf("Enter how many numbers you want to enter: ");
     scanf("%d",&n);
     printf("Now enter number:\n");
-    while(n!=0)
+    while(j<=n)
     {
         scanf("%d",&i);
         if(i>0)
@@ -21,7 +21,7 @@ int main()
         {
             zero++;
         }    
-        n--;
+        j++;
     }
     printf("The positive numbers are:%d\n",pos);
     printf("The negatiive number are:%d\n",neg);

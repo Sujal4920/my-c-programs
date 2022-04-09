@@ -1,14 +1,14 @@
 // linear and binary search using functions
 #include <stdio.h>
-void linearsearch(int *arr, int n, int k)
+void linearsearch(int arr[], int n, int k)
 {
     for (int i = 0; i < n; i++)
     {
         if (k == arr[i])
-            printf("Using linear search Element %d found at position %d\n", k, i);
+            printf("Using linear search Element %d found at position %d\n", k, i+1);
     }
 }
-void binarysearch(int *arr, int n, int k)
+void binarysearch(int arr[], int n, int k)
 {
     int low, high, mid;
     low = 0;
@@ -17,7 +17,7 @@ void binarysearch(int *arr, int n, int k)
     {
         mid = (low + high) / 2;
         if (k == arr[mid])
-            printf("Using binary search Element %d found at position %d\n", k, mid);
+            printf("Using binary search Element %d found at position %d\n", k, mid+1);
         if (k < arr[mid])
             high = mid - 1;
         else
