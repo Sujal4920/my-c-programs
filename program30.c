@@ -1,6 +1,6 @@
 //program to move positive to one side and negative to other side in an array
 #include <stdio.h>
-#define N 10
+#define N 6
 int main()
 {
     int a[N],i,j,temp;

@@ -6,7 +6,7 @@ void primerec(int n,int c)
     return;
     else if(n%c==0)
     {
-        printf("%d ",c);
+        printf("%d\n",c);
         primerec(n/c,c);
     }
     else

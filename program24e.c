@@ -1,8 +1,9 @@
 //Recursive and non-Recursive program for finding sum of digits
 #include <stdio.h>
-int sum = 0;
+//int sum = 0;
 void sumf(int m)
 {
+    int sum=0;
     while (m != 0)
     {
         sum = sum + (m % 10);
@@ -12,6 +13,7 @@ void sumf(int m)
 }
 int sumrec(int m)
 {
+    int sum=0;
     if (m == 0)
         return (sum);
     else

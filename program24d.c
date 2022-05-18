@@ -27,12 +27,12 @@ int fib(int n)
 }
 int main()
 {
-    int n = 25, i;
+    int n = 4, i;
     printf("Using Non-recursive:\n");
     fib(n);
     printf("\n\n");
     printf("Using Recursive:\n");
-    for (i = 1; i <= n; i++)
+    for (i = n; i>=0; i--)
     {
         printf("%d\t",fibrec(i));
     }
